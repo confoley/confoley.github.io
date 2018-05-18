@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I am a student of Data Science at General Assembly in New York with a background in Political Science, music, and the foodservice industry.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[Email](mailto:connor.foley@gmail.com)

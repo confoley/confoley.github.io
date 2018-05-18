@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: Connor Foley
 ---
 
-Welcome to my very complete and totally useful blog!
+A blog about becoming a Data Scientist.
