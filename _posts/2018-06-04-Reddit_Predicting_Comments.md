@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using Reddit's API for Predicting Number of Comments
+title: Predicting Number of Comments with Reddit's API
 date: 2018-06-04
 ---
 In this project, I aimed to predict which features would predict whether or not a post on reddit makes it to the "hot" subreddit, which is a page for posts with high user interaction, as measured by the number of comments on the post. To gather the data, I scraped JSON post data from reddit's API and saved it to a .csv file. I set the target variable to a binarized measure of number of comments: above the mean amount of comments or below it.
