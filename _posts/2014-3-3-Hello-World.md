@@ -4,4 +4,4 @@ title: I have a blog now.
 date: 2017-05-01
 ---
 
-This is going to be my blog about becoming a Data Scientist, including projects I'm working on, thoughts on events I've attended, and more. 
+Welcome to my new blog about data science. I will be posting about projects I have worked on and the experience of taking the Data Science Immersive course at General Assembly in NYC. 

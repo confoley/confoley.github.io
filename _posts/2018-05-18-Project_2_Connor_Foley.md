@@ -1,10 +1,8 @@
 ---
 layout: post
-title: Ames, Iowa
+title: Using Housing Data to Predict Price
 date: 2018-05-18
 ---
-### Using Housing Data to Predict Price
-
 For this project I created a model to predict price based on a dataset on the housing stock of Ames, Iowa, a small midwestern town north of Des Moines that is home to Iowa State University. There were 81 columns with about an even split between categorical data and numerical data. Some of the columns, such as "Overall Quality," could be initially assumed to have a strong correlation with price, while other more obscure qualities such as "Garage Type" and "Masonry Veneer Type" occupied most of the columns. I only had a limited amount of time to complete this project, so efficiency was critical. My goal was to create a model that accurately predicted price without combing over every minute detail.
 
 There was a lot of missing data in the dataset. Some of the columns were overwhelmingly full of NaN values, such as "Pool QC," in which only 9 out of 2051 rows were not NaN values. I decided to drop this column, along with "Alley" and "Misc Feature" because of the overwhelming percentage of NaN values. In numerical columns, I replaced NaN values with the mean of the column using Impute. In categorical columns, I replaced NaNs with the most frequent value of that column. The reasoning behind this was that in most of the categorical columns there was one overwhelming mode, and filling in missing values with this mode would not alter the data very much. Had I had more time, I would have analyzed the missing values more in an attempt to determine if the values were truly missing or actually meant something else. In order to fill the missing values differently based on numerical vs. categorical data, I separated the DataFrame and then rejoined them using `df.concat()`. In addition to filling missing values, I also modified the "Year Built" and "Year Remod/Add" columns to reflect the time since the property was built or remodeled, as a year behaves as categorical data despite being an integer.
