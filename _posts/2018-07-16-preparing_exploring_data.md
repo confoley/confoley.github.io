@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Part 1, Classifying Political News Media Text with NLP
+title: Part 1, Classifying Political News Media Text with Natural Language Processing
 date: 2018-07-16
 ---
 For my final capstone project as part of the Data Science Immersive program at General Assembly NYC, I decided to create a political text classification model using Natural Language Processing. As with all data science projects, this was a non-linear, iterative process that required extensive data cleaning. I learned a great deal about NLP in the process, and I look forward to further projects on this topic. The full repo for this project can be found [here](https://github.com/confoley/Capstone). 
