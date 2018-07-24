@@ -7,6 +7,8 @@ In this project, I aimed to predict which features would predict whether or not 
 
 I tried a few different kinds of models. Because there was text data and numerical data, I initially isolated them to look at how they performed on their own. A Logistic Regression model on only the numerical data gave me an accuracy score of 0.88, which is just short of the score for my best model. Using Count Vectorizer on the post title and running it through a Bernoulli Naïve Bayes model, I got a score that was about the same as the baseline. Hoping that a combination of these two initial approaches would give me a higher score, I used FeatureUnion to fit two pipelines inside a pipeline in order to combine text and numerical data. This resulted in a better score (0.91), but not as much as an improvement from the baseline as I had hoped for. Moving forward I would like to try both a regression model and a multi-class classification model.  
 
+<iframe src="https://docs.google.com/presentation/d/1M1V8vgp0ubbZSyYo_VOZgSuQDVCav3a-PqkUKQ6LzEo/edit?usp=sharing/embed?start=true&amp;loop=true&amp;delayms=5000" frameborder="0" width="720" height="434" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 
 ```python
 import requests
