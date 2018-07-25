@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project 2: Ames Housing Data
+title: Project 2 - Ames Housing Data
 date: 2018-05-18
 ---
 For this project (full repo [here](https://github.com/confoley/ames_housing_project2)) I created a model to predict price based on a dataset on the housing stock of Ames, Iowa, a small midwestern town north of Des Moines that is home to Iowa State University. There were 81 columns with about an even split between categorical data and numerical data. Some of the columns, such as "Overall Quality," could be initially assumed to have a strong correlation with price, while other more obscure qualities such as "Garage Type" and "Masonry Veneer Type" occupied most of the columns. I only had a limited amount of time to complete this project, so efficiency was critical. My goal was to create a model that accurately predicted price without combing over every minute detail.
